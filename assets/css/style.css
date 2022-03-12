@@ -106,7 +106,7 @@ figure {
     color: #ffffff;
 } 
 /* added content selector so select images in main */
-.content img {
+main img {
     max-height: 200px;
 }
 /* removed redundant code */
@@ -148,13 +148,13 @@ figure {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* added aside selector */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -165,8 +165,8 @@ figure {
     background-color: #2589bd;
 }
 
-/* added benefits selector */
-.benefits {
+/* added aside selector */
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -203,8 +203,8 @@ figure {
     text-align: center;
 } */
 
-/* added benefits selector for images */
-.benefits img {
+/* added aside selector for images */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
